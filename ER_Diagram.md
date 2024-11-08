@@ -1,5 +1,5 @@
 # ER Диаграмма
-![](https://github.com/Chudesnik222/PIS_Project/blob/main/ER_Diagram.png)])
+![](https://github.com/Chudesnik222/PIS_Project/blob/main/ER_Diagram.png)
 
 
 
