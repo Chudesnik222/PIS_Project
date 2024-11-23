@@ -1,7 +1,7 @@
 # Диаграммы последовательностей
 
 ## Получение информации о мерах государственной поддержки
-![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_DiagramSource/1.png)
+![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_Diagrams/1.png)
 
 ## Просмотр личных данных и документов
 ![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_DiagramSource/2.png)
