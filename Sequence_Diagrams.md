@@ -6,52 +6,52 @@
 Описание:
 * Пользователь пытается войти в систему, предоставляя свои учетные данные.
 
-* AutoController передает запрос на вход в AutoService.
+* AuthController передает запрос на вход в AutoService.
 
-* AutoService использует HashPasswordService для хеширования пароля.
+* AuthService использует HashPasswordService для хеширования пароля.
 
-* AutoService запрашивает у AuthRepository данные пользователя.
+* AuthService запрашивает у AuthRepository данные пользователя.
 
 * AuthRepository возвращает данные пользователя.
 
-* AutoService проверяет соответствие хешированного пароля и возвращает статус операции.
+* AuthService проверяет соответствие хешированного пароля и возвращает статус операции.
 
 
 ## Просмотр личных данных и документов
 ![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_Diagrams/%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%20%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B8%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2.png)
 
 Описание:
-* Участник Гоф программы инициирует запрос на просмотр личных данных и документов.
+* Участник Гоc программы инициирует запрос на просмотр личных данных и документов.
 
-* Profilctenroller передает запрос в ProfilsService.
+* ProfileController передает запрос в ProfileService.
 
-* ProfilsService запрашивает данные из ProfilsRepository.
+* ProfileService запрашивает данные из ProfileRepository.
 
-* ProfilsRepository возвращает данные о профиле.
+* ProfileRepository возвращает данные о профиле.
 
-* ProfilsService возвращает данные участнику.
+* ProfileService возвращает данные участнику.
 
 
 ## Обновление личных данных
 ![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_Diagrams/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.png)
 
 Описание:
-* Участник Гоф программы инициирует запрос на обновление личных данных.
+* Участник Гоc программы инициирует запрос на обновление личных данных.
 
-* Profilctenroller передает запрос в ProfilsService.
+* ProfileController передает запрос в ProfileService.
 
-* ProfilsService обновляет данные профиля и передает их в ProfilsRepository.
+* ProfileService обновляет данные профиля и передает их в ProfileRepository.
 
-* ProfilsRepository сохраняет обновленные данные в базе данных.
+* ProfileRepository сохраняет обновленные данные в базе данных.
 
-* ProfilsService возвращает статус операции и обновленный объект Profile.
+* ProfileService возвращает статус операции и обновленный объект Profile.
 
 
 ## Получение информации о процедуре постановки на учет
 ![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_Diagrams/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BE%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80%D0%B5%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D1%83%D1%87%D0%B5%D1%82.png)
 
 Описание:
-* Участник Гоф программы инициирует запрос на получение информации о процедуре постановки на учет.
+* Участник Гоc программы инициирует запрос на получение информации о процедуре постановки на учет.
 
 * AccountingController передает запрос в AccountingService.
 
@@ -66,9 +66,9 @@
 ![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_Diagrams/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%20%D0%B2%20%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D0%BE%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%D0%BC%20%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8.png))
 
 Описание:
-* Участник Гоф программы инициирует запрос на запись на прием.
+* Участник Гоc программы инициирует запрос на запись на прием.
 
-* РекретControlJur передает запрос в RequestService.
+* RequestController передает запрос в RequestService.
 
 * RequestService создает запись о записи на прием и передает ее в RequestRepository.
 
@@ -81,7 +81,7 @@
 ![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_Diagrams/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BE%20%D0%BC%D0%B5%D1%80%D0%B0%D1%85%20%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B8.png)
 
 Описание:
-* Участник Гоф программы инициирует запрос на получение информации о мерах государственной поддержки.
+* Участник Гоc программы инициирует запрос на получение информации о мерах государственной поддержки.
 
 * SupportService обрабатывает запрос и возвращает информацию о мерах поддержки.
 
@@ -90,7 +90,7 @@
 ![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_Diagrams/%D0%9E%D1%82%D0%BC%D0%B5%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%B8%D0%B5%D0%BC.png))
 
 Описание:
-* Участник Гоф программы инициирует запрос на отмену записи на прием.
+* Участник Гоc программы инициирует запрос на отмену записи на прием.
 
 * RequestControlLier передает запрос в RequestService.
 
@@ -120,9 +120,9 @@
 ![](https://github.com/Chudesnik222/PIS_Project/blob/main/Sequence_Diagrams/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%83%D0%B2%D0%B5%D0%B4%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81%D0%B5%20%D0%B7%D0%B0%D1%8F%D0%B2%D0%BA%D0%B8.png)
 
 Описание:
-* Участник Гоф программы инициирует запрос на получение уведомления о статусе заявки.
+* Участник Гоc программы инициирует запрос на получение уведомления о статусе заявки.
 
-* RequestControlLter передает запрос в RequestService.
+* RequestController передает запрос в RequestService.
 
 * RequestService запрашивает информацию о заявке из RequestRepository.
 
