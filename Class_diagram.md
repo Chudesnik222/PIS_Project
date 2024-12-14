@@ -1,6 +1,6 @@
 # Диаграмма классов
 
-![](https://github.com/Chudesnik222/PIS_Project/blob/main/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B23.jpg)
+![](https://github.com/Chudesnik222/PIS_Project/blob/main/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2.jpg)
 
 ## Многослойная архитектура WEB API
 Services - слой бизнес логики.
@@ -37,7 +37,6 @@ RequestService - класс-сервис, отвечающий за бизнес
 SupportService - класс-сервис, отвечающий забизнес логику условий заявок
 
 ## Repositories:
-BaseRepository - базовый класс-репозиторий, который обращается к базе данных.
 
 AuthRepository - дочерний класс-репозиторий, содержит методы для работы с авторизацией и регистрацией пользователя.
 
